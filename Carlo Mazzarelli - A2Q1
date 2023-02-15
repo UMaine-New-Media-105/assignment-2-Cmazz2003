@@ -1,0 +1,64 @@
+var row1 = 0;
+var row2 = 80;
+var row3 = 160;
+var row4 = 240;
+var row5 = 320;
+
+var col1 = 0;
+var col2 = 80;
+var col3 = 160;
+var col4 = 240;
+var col5 = 320;
+var s = 80;
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+fill("hsl(240,100%,50%)")
+  rect(col1, row1, s);
+  fill("hsl(60,100%,50%)")
+  rect(col2, row1, s);
+  rect(col3, row1, s);
+  rect(col4, row1, s);
+  fill("hsl(240,100%,50%)")
+  rect(col5, row1, s);
+fill("hsl(250,100%,50%)")
+  rect(col1, row2, s);
+fill("hsl(70,100%,50%)")
+  rect(col2, row2, s);
+fill("hsl(250,100%,50%)")
+  rect(col3, row2, s);
+  fill("hsl(70,100%,50%)")
+  rect(col4, row2, s);
+fill("hsl(250,100%,50%)")
+   rect(col5, row2, s);
+fill("hsl(260,100%,50%)")
+  rect(col1, row3, s);
+fill("hsl(80,100%,50%)")
+  rect(col2, row3, s);
+fill("hsl(260,100%,50%)")
+  rect(col3, row3, s);
+  rect(col4, row3, s);
+  rect(col5, row3, s);
+fill("hsl(270,100%,50%)")
+  rect(col1, row4, s);
+fill("hsl(90,100%,50%)")
+  rect(col2, row4, s);
+fill("hsl(270,100%,50%)")
+  rect(col3, row4, s);
+fill("hsl(90,100%,50%)")
+  rect(col4, row4, s);
+  fill("hsl(270,100%,50%)")
+  rect(col5, row4, s);
+fill("hsl(280,100%,50%)")
+  rect(col1, row5, s);
+fill("hsl(100,100%,50%)")
+  rect(col2, row5, s);
+  rect(col3, row5, s);
+  rect(col4, row5, s);
+fill("hsl(280,100%,50%)")
+  rect(col5, row5, s);
+}
