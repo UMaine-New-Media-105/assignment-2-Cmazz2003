@@ -1,0 +1,26 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+
+fill("gold")
+beginShape();
+vertex(100,200);
+vertex(200, 50);
+vertex(300,200);
+endShape(CLOSE);
+
+beginShape();
+vertex(5,350);
+vertex(100,200);
+vertex(200,350);
+endShape(CLOSE);
+  
+beginShape();
+vertex(200,350);
+vertex(300,200);
+vertex(395,350);
+endShape(CLOSE);
+}
