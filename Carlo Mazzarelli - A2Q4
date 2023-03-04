@@ -1,0 +1,33 @@
+function setup() {
+  createCanvas(600, 400);
+  angleMode(DEGREES);
+  rectMode(CENTER);
+}
+
+function draw() {
+  push();
+  background("red");
+  fill("white");
+  ellipse(200, 200, 200, 200);
+  fill("red");
+  noStroke();
+  ellipse(230, 200, 170, 170);
+  fill("white");
+  translate(300, 200);
+  rotate(72);
+  triangle(0, 50, 20, 0, -20, 0);
+  rotate(72);
+  triangle(0, 50, 20, 0, -20, 0);
+  rotate(72)
+  triangle(0,50,20,0,-20,0)
+  rotate(72)
+  triangle(0,50,20,0,-20,0)
+  rotate(72)
+  triangle(0,50,20,0,-20,0)
+  rect(100,10,70,50)
+  rect(150,10,70,50)
+  rect(200,10,70,50)
+  rect(150,60,50,70)
+  rect(150,-40,50,70)
+}
+https://editor.p5js.org/CMazz/sketches/ujlzkvsMC
