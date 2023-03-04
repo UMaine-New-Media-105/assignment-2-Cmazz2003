@@ -17,7 +17,15 @@ function setup() {
 
 function draw() {
   background(220);
-fill("hsl(240,100%,50%)")
+  addRow1();
+  addRow2();
+  addRow3();
+  addRow4();
+  addRow5();
+}
+  
+  function addRow1(){
+  fill("hsl(240,100%,50%)")
   rect(col1, row1, s);
   fill("hsl(60,100%,50%)")
   rect(col2, row1, s);
@@ -25,6 +33,8 @@ fill("hsl(240,100%,50%)")
   rect(col4, row1, s);
   fill("hsl(240,100%,50%)")
   rect(col5, row1, s);
+  }
+  function addRow2(){
 fill("hsl(250,100%,50%)")
   rect(col1, row2, s);
 fill("hsl(70,100%,50%)")
@@ -35,6 +45,8 @@ fill("hsl(250,100%,50%)")
   rect(col4, row2, s);
 fill("hsl(250,100%,50%)")
    rect(col5, row2, s);
+  }
+  function addRow3(){
 fill("hsl(260,100%,50%)")
   rect(col1, row3, s);
 fill("hsl(80,100%,50%)")
@@ -44,6 +56,8 @@ fill("hsl(260,100%,50%)")
   rect(col4, row3, s);
   rect(col5, row3, s);
 fill("hsl(270,100%,50%)")
+  }
+  function addRow4(){
   rect(col1, row4, s);
 fill("hsl(90,100%,50%)")
   rect(col2, row4, s);
@@ -54,6 +68,8 @@ fill("hsl(90,100%,50%)")
   fill("hsl(270,100%,50%)")
   rect(col5, row4, s);
 fill("hsl(280,100%,50%)")
+  }
+  function addRow5(){
   rect(col1, row5, s);
 fill("hsl(100,100%,50%)")
   rect(col2, row5, s);
@@ -61,4 +77,5 @@ fill("hsl(100,100%,50%)")
   rect(col4, row5, s);
 fill("hsl(280,100%,50%)")
   rect(col5, row5, s);
-}
+  }
+  https://editor.p5js.org/CMazz/sketches/fyNqQ43V0
